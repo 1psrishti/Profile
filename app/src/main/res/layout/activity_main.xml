@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Enter your details here to create your profile!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pfpIV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/placeholder"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1dp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:hint="NAME *"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#E3E3E3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="EMAIL ID *"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#E3E3E3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/numET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="CONTACT NUMBER"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#E3E3E3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/linkedinET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="LINKEDIN URL *"
+        android:inputType="textWebEmailAddress"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#E3E3E3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/githubET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="GITHUB USERNAME *"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#E3E3E3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="* required"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/createBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Create Profile"
+        android:textSize="16sp" />
+
+</LinearLayout>
