@@ -42,11 +42,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:backgroundTint="@color/white"
-        android:hint="NAME *"
+        android:hint="Name *"
         android:inputType="textCapWords"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textColorHint="#E3E3E3"
+        android:textColorHint="#D1B8FF"
         android:textSize="18sp" />
 
     <EditText
@@ -55,11 +55,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
-        android:hint="EMAIL ID *"
+        android:hint="Email Id *"
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textColorHint="#E3E3E3"
+        android:textColorHint="#D1B8FF"
         android:textSize="18sp" />
 
     <EditText
@@ -68,11 +68,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
-        android:hint="CONTACT NUMBER"
+        android:hint="Contact No."
         android:inputType="phone"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textColorHint="#E3E3E3"
+        android:textColorHint="#D1B8FF"
         android:textSize="18sp" />
 
     <EditText
@@ -81,11 +81,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
-        android:hint="LINKEDIN URL *"
+        android:hint="LinkedIn URL *"
         android:inputType="textWebEmailAddress"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textColorHint="#E3E3E3"
+        android:textColorHint="#D1B8FF"
         android:textSize="18sp" />
 
     <EditText
@@ -94,11 +94,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
-        android:hint="GITHUB USERNAME *"
+        android:hint="Github Username *"
         android:inputType="text"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textColorHint="#E3E3E3"
+        android:textColorHint="#D1B8FF"
         android:textSize="18sp" />
 
     <TextView
@@ -119,6 +119,7 @@
         android:layout_marginRight="50dp"
         android:background="@drawable/button"
         android:padding="15dp"
+        android:textColor="@color/white"
         android:text="Create Profile"
         android:textSize="16sp" />
 

@@ -23,12 +23,12 @@
         android:id="@+id/nameTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="JOHN DOE"
-        android:textAllCaps="true"
+        android:layout_marginTop="35dp"
+        android:text="John Doe"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/emailTV"
@@ -38,7 +38,7 @@
         android:text="johndoe@email.com"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/numTV"
@@ -48,7 +48,7 @@
         android:text="9412211330"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,7 +83,8 @@
         android:layout_marginRight="50dp"
         android:background="@drawable/button"
         android:padding="15dp"
-        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:text="Create Again"
         android:textSize="16sp" />
 
 </LinearLayout>
